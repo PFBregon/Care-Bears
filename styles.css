@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+}
+
+.text {
+    font-family: src="Roboto", sans-serif;
+    font-size: 50px;
+    border: 1px solid black;
+    width: 420px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+}
+.containerGrid {
+    display: grid;
+    gap: 30px;
+    width: 40%;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.main {
+    display: grid, inline-grid;
+    grid-auto-columns: 2fr;
+    grid-auto-rows: 2;
+    gap: 25px;
+    justify-items: center;
+    grid-area: item22, item22, item11;
+}
+
+.aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.footer {
+    display: grid, inline-grid;
+    gap: 50px;
+    padding: 10px;
+}
